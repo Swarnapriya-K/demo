@@ -1,14 +1,14 @@
 *{
-  padding: 0%;
+  padding: 0px;
   margin: 0px;
 }
 .head{
- background-color: #90953b;
+ background-color: hsl(80, 43%, 41%);
+}
+.head1{
+  background-color: rgba(95, 112, 17, 0.8);
+}
 
-}
-.navtext{
-  font-size: 20px;
-}
 .first_text{
   color: #e0ea17;
   font-size:20px;
@@ -19,8 +19,10 @@
 }
 .third_text{
   color: white;
-      line-height: 1.5;
-    font-weight: 400;
+   line-height: 1.5;
+  font-weight: 500;
+  width: 70%;
+  font-size: 17px;
 }
  .read_btn{
   background-color:yellow;
@@ -66,4 +68,24 @@
   }
   .textclr{
     color: white;
+  }
+  .cus{
+    color: rgb(68, 100, 3);
+     font-weight: 200
+  }
+  .bgclr{
+    background-color: rgb(247, 241, 241);
+  }
+  .para{
+    width: 80%;
+    font-size: 20px;
+  }.linktext{
+    color: #e0ea17;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .textctr{
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 80px;
   }

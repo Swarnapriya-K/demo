@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 function ContactUs() {
   return (
     <div>
-      <Container fluid  className="blck" >
+      <Container fluid className="blck">
         <div class="row pt-5">
           <div class="col-12 col-xl-6">
             <h4 class="f_text pt-5 text-md-center">NEWSLETTER</h4>
@@ -19,39 +19,39 @@ function ContactUs() {
             </div>
           </div>
         </div>
-        <div class="row pt-5 mx-5 pb-4 textclr" >
-          <div class="col-md-3 col-sm-3">
+        <Row className="textclr justify-content-center mt-4 pb-5">
+          <Col lg={3} xl={2}>
             <h4>BRINGTON</h4>
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration
             </p>
-          </div>
-          <div class="col-md-3 col-sm-3">
+          </Col>
+          <Col lg={3} xl={2}>
             <h4>CONTACT US</h4>
             <p>
               Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit
               amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat
               mattis eros
             </p>
-          </div>
-          <div class="col-md-3 col-sm-3">
+          </Col>
+          <Col lg={3} xl={2}>
             <h4>INFORMATION</h4>
             <p>
               Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit
               amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat
               mattis eros
             </p>
-          </div>
-          <div class="col-md-3 col-sm-3">
+          </Col>
+          <Col lg={3} xl={2}>
             <h4>MY ACCOUNT</h4>
             <p>
               Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit
               amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat
               mattis eros
             </p>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
